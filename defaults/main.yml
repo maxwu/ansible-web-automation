@@ -1,0 +1,13 @@
+---
+# defaults file for web-automation
+
+cache_path: "~/.wa"
+
+# is currently the latest version April 2017.
+jdk_version: "latest"
+
+# 3.3.9 is currently the latest version April 2017.
+mvn_version: "latest"
+
+
+
