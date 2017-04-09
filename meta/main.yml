@@ -1,5 +1,5 @@
 galaxy_info:
-  author: Max Wu
+  author: maxwu
   description: Ansible role to setup web automation test environment
   company: 
 
@@ -9,7 +9,7 @@ galaxy_info:
 
   license: MIT
 
-  min_ansible_version: 1.2
+  min_ansible_version: 2.2.1.0
 
   # Optionally specify the branch Galaxy will use when accessing the GitHub
   # repo for this role. During role install, if no tags are available,
@@ -24,7 +24,7 @@ galaxy_info:
   # the ones that apply to your role. If you don't see your
   # platform on this list, let us know and we'll get it added!
   #
-  #platforms:
+  platforms:
   #- name: OpenBSD
   #  versions:
   #  - all
