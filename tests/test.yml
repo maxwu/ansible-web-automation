@@ -2,4 +2,12 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - web-automation
+    - maxwu.web-automation
+  tasks:
+  - name: check java
+      shell: java -version
+      register: java_ver
+
+  - name: print java version
+    debug:
+      msg: "{{ java_ver.stdout_lines }}"
