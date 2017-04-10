@@ -1,6 +1,11 @@
 ---
 
+language: python
+
 sudo: required
+
+services:
+  - docker
 
 # Only test Ubuntu 14.04 for scrum-1
 env:
