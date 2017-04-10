@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/maxwu/ansible-web-automation.svg?branch=master)](https://travis-ci.org/maxwu/ansible-web-automation)
-
 web-automation
 =========
+
+[![Build Status](https://travis-ci.org/maxwu/ansible-web-automation.svg?branch=master)](https://travis-ci.org/maxwu/ansible-web-automation)
 
 Ansible role to setup web automation test environment.
 
